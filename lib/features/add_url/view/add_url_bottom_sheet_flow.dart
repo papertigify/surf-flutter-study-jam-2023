@@ -5,7 +5,7 @@ import 'package:surf_flutter_study_jam_2023/features/add_url/bloc/add_url_bloc.d
 import 'package:surf_flutter_study_jam_2023/features/add_url/data/url_validator.dart';
 import 'package:surf_flutter_study_jam_2023/features/add_url/view/add_url_bottom_sheet.dart';
 
-/// точка входа в "Добавление ссылки".
+/// entry point for "Добавление ссылки".
 class AddUrlBottomSheetFlow extends StatelessWidget {
   const AddUrlBottomSheetFlow({Key? key}) : super(key: key);
 

@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:surf_flutter_study_jam_2023/features/add_url/bloc/add_url_bloc.dart';
 import 'package:surf_flutter_study_jam_2023/res/dimens.dart';
 
-/// боттомшит “Добавление ссылки”.
+/// bottom sheet “Добавление ссылки”.
 class AddUrlBottomSheet extends StatelessWidget {
   const AddUrlBottomSheet({Key? key}) : super(key: key);
 

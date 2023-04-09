@@ -1,12 +1,21 @@
 part of 'ticket_storage_bloc.dart';
 
 class TicketStorageState extends Equatable {
-  const TicketStorageState();
+  final List<TicketState> ticketStates;
+  late final urls = ticketStates.map((e) => e.ticket.url).toList();
 
-  TicketStorageState copyWith() {
-    return TicketStorageState();
+  TicketStorageState({
+    this.ticketStates = const <TicketState>[],
+  });
+
+  TicketStorageState copyWith({
+    List<TicketState>? ticketStates,
+  }) {
+    return TicketStorageState(
+      ticketStates: ticketStates ?? this.ticketStates,
+    );
   }
 
   @override
-  List<Object> get props => [];
+  List<Object> get props => [ticketStates];
 }
