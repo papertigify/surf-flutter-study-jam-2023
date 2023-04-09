@@ -110,7 +110,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e87444f0fb8c4afeee4411290f9fc938c9f275dd
+      resolved-ref: "17b425d94187bce22dc6d536c3b18b9d1d4a7c05"
       url: "https://github.com/papertigify/flowder.git"
     source: git
     version: "0.2.0"
